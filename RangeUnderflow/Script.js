@@ -3,7 +3,7 @@ function myFunction() {
   if (document.getElementById("id1").validity.rangeUnderflow) {
     txt = "Value too less";
   } else {
-    txt = "Input OK";
+    txt = "Value too large";
   } 
   document.getElementById("demo").innerHTML = txt;
 }
